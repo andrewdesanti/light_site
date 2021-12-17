@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% block main %}
+<b style="font-size: large;">Choose An LED Effect:</b>
+<div style="text-align: left;">
+<form  action="/form" method="POST">
+    <div>
+        <label for="Effect">Effect: </label><br>
+        <select name="Effect" id="effect-select">
+            <option value="x">--Choose Effect--</option><br>
+                <option value="SOLID">SOLID</option><br>
+                <option value="THIRDS">THIRDS</option><br>
+                <option value="COMET">COMET</option><br>
+                <option value="COMET3">COMET3</option><br>
+                <option value="RAINBOW">RAINBOW</option><br>
+                <option value="BREATHING">BREATHING</option><br>
+                <option value="STROBE">STROBE</option><br>
+                <option value="COLORWIPE">COLORWIPE</option><br>
+                <option value="RANDOM">RANDOM</option><br>
+
+        </select>
+    </div> 
+    <div>
+        <label for="Color1">Color 1: </label><br>
+        <select name="Color1" id="color1-select">
+            <option value="x">--Choose Color 1--</option><br>
+		<option value="BLACK">BLACK</option><br>
+		<option value="WHITE">WHITE</option><br>
+                <option value="RED">RED</option><br>
+                <option value="ORANGE">ORANGE</option><br>
+                <option value="YELLOW">YELLOW</option><br>
+                <option value="GREEN">GREEN</option><br>
+                <option value="BLUE">BLUE</option><br>
+                <option value="INDIGO">INDIGO</option><br>
+                <option value="PURPLE">PURPLE</option><br>
+        </select>
+    </div>
+
+    <div>
+        <label for="Color2">Color 2: </label><br>
+        <select name="Color2" id="color2-select">
+            <option value="x">--Choose Color 2--</option><br>
+		<option value="BLACK">BLACK</option><br>
+		<option value="WHITE">WHITE</option><br>
+                <option value="RED">RED</option><br>
+                <option value="ORANGE">ORANGE</option><br>
+                <option value="YELLOW">YELLOW</option><br>
+                <option value="GREEN">GREEN</option><br>
+                <option value="BLUE">BLUE</option><br>
+                <option value="INDIGO">INDIGO</option><br>
+                <option value="PURPLE">PURPLE</option><br>
+        </select>
+    </div>
+
+    <div>
+        <label for="Color3">Color 3: </label><br>
+        <select name="Color3" id="color3-select">
+            <option value="x">--Choose Color 3--</option><br>
+		<option value="BLACK">BLACK</option><br>
+		<option value="WHITE">WHITE</option><br>
+                <option value="RED">RED</option><br>
+                <option value="ORANGE">ORANGE</option><br>
+                <option value="YELLOW">YELLOW</option><br>
+                <option value="GREEN">GREEN</option><br>
+                <option value="BLUE">BLUE</option><br>
+                <option value="INDIGO">INDIGO</option><br>
+                <option value="PURPLE">PURPLE</option><br>
+        </select>
+    </div>
+    
+    <div>
+    <br>
+    <input type="submit" value="Submit">
+    </div>
+</form>
+</div>  
+<div>
+    <br>
+    <b style="font-size: large;">Current Selections:</b>
+    <br>
+    <p1>Effect: {{effect}}</p1>
+    <br>
+    <p2>Color 1: {{color1}}</p2>
+    <br>
+    <p3>Color 2: {{color2}}</p3>
+    <br>
+    <p4>Color 3: {{color3}}</p4>
+</div>
+<br>
+{% endblock %}

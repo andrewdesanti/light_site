@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block main %}
+<b style="font-size: large;">Raspberry Pi-WS281x Addressable LED Interface:</b><br>
+<div>
+    <br>
+    <p1>This is a simple Flask site that can be used to control WS281x LED strips that are connected to the Raspberry Pi that is hosting this site.</p1>
+    <br>
+    <br>
+    <p2>Choose from a list of pre-programmed effects via any web browser on a device connected to the same WiFi as the Pi. Your choice can be immediately seen in the lights in the room. Keep in mind not all effects make use of all three colors (and some don't use them at all).</p2>
+    <br>
+    <br>
+    <p3>Be sure to configure your specific LED settings in light_site.py before running effects.</p3>
+</div>
+<br>
+
+{% endblock %}
