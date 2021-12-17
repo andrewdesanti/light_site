@@ -46,7 +46,7 @@ sudo python3 light_site.py
 ### _PLEASE NOTE_:
 Incorrectly setting up the hardware can possibly damage the Raspberry Pi, LEDs, or even yourself! While this is compatable with many different LED and Raspberry Pi models, do your own research on how to safely set them up!
 
-A very simple wiring diagram MAY look like this. PLEASE I can not stress enough how important it is to do this correctly according to your hardware setup!
+A very simple wiring diagram MAY look like this. PLEASE I can not stress how important it is to do this correctly according to your hardware!
  ![alttext](https://tutorials-raspberrypi.com/ezoimgfmt/tutorials-raspberrypi.de/wp-content/uploads/Raspberry-Pi-WS2812-Steckplatine-600x361.png?ezimgfmt=rs:600x361/rscb1/ng:webp/ngcb1)
  
  ### _ALSO!_
