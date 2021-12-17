@@ -26,7 +26,7 @@ light_site requires a Raspberry Pi to be running a relatively up-to-date raspbia
 Install the dependencies...
 
 ```sh
-sudo pip3 install flask rpi_ws281x_python psutil
+sudo pip3 install flask rpi_ws281x psutil
 ```
 To download this repository...
 
